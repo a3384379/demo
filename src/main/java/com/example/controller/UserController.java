@@ -83,7 +83,7 @@ public class UserController {
     @RequestMapping("/test3")
     public void test3(Model model, HttpServletResponse response, HttpServletRequest request) throws Exception {
         model.addAttribute("name","苏邱钊");
-        System.out.println("111");
+        System.out.println("1112");
         request.getRequestDispatcher("http://127.0.0.1:8020/test/index.html").forward(request,response);
     }
 }
